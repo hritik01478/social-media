@@ -6,7 +6,7 @@ import { FollowersCard } from '../followersCard/FollowersCard'
 export const ProfileSide = () => {
   return (
     <div className='ProfileSide'>
-      <LogoSearch />
+      {/* <LogoSearch /> */}
       <ProflieCard />
       <FollowersCard />
     </div>

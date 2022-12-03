@@ -15,12 +15,11 @@
 }
 
 .App{
+  position: relative;
   overflow: hidden;
   color: var(--black);
   background-color: #f3f3f3;
-  padding: 1rem 1rem;
 }
-
 .blur{
   position: absolute;
   width: 22rem;

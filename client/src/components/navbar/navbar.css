@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    box-shadow: var(--profileShadow);
+    /* border-bottom: 1px solid var(--gray); */
+    position: sticky;
+    top: 0;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.left>span{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--orange);
+}
+
+.navSearch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid var(--gray);
+}
+.navSearch>input{
+    outline: none;
+    border: none;
+    width: 30rem;
+    background-color: inherit;
+    font-size: 15px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.navUser{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+.navUser>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--profileShadow);
+}
