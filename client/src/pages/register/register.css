@@ -1,4 +1,4 @@
-.login{
+.register{
     height: 100vh;
     /* width: 100vw; */
     display: flex;
@@ -7,9 +7,10 @@
     justify-content: center;
 }
 
-.loginCard{
+.registerCard{
     width: 50%;
     display: flex;
+    flex-direction: row-reverse;
     box-shadow: var(--profileShadow);
     border-radius: 0.5rem;
     min-height: 500px;
@@ -17,9 +18,9 @@
     background-color: #fff;
 }
 
-.loginLeft{
+.registerLeft{
     flex: 1;
-    background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5))   , url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+    background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5))   , url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
     background-size: cover;
     padding: 50px;
     display: flex;
@@ -27,16 +28,16 @@
     color: white;
     gap: 30px;
 }
-.loginLeft>h1{
+.registerLeft>h1{
     font-size: 80px;
     line-height: 80px;
     letter-spacing: 2px;
 }
 
-.loginLeft>span{
+.registerLeft>span{
     font-size: 14px;
 }
-.loginLeft>button{
+.registerLeft>button{
     width: 50%;
     padding: 10px;
     border: none;
@@ -46,28 +47,28 @@
     cursor: pointer;
     outline: none;
 }
-.loginRight{
+.registerRight{
     flex: 1;
     padding: 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     justify-content: center;
 }
 
-.loginRight>h1{
+.registerRight>h1{
     font-size: 40px;
 }
-.loginRight>form{
+.registerRight>form{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.loginInput{
+.registerInput{
     position: relative;
 }
-.loginInput>input{
+.registerInput>input{
     border: solid 2px #9e9e9e;
     border-radius: 1rem;
     background: none;
@@ -77,7 +78,7 @@
     color: var(--black);
     transition: 150ms cubic-bezier(0.4,0, 0.2, 1 );
 }
-.loginInput>label{
+.registerInput>label{
     position: absolute;
     left: 16px;
     color: gray;
@@ -87,12 +88,12 @@
     transition: 150ms cubic-bezier(0.4,0, 0.2, 1 );
 }
 
-.loginInput>input:focus{
+.registerInput>input:focus{
     outline: none;
     border: 2px solid rebeccapurple;
 }
 
-.loginInput>input:focus ~label{
+.registerInput>input:focus ~label{
     display: inline;
     transform: translateY(-50%) scale(0.8);
     background-color:#fff;
@@ -100,7 +101,7 @@
     color: rebeccapurple;
 }
 
-.loginRight>form>button{
+.registerRight>form>button{
     width: 50%;
     padding: 10px;
     border: none;

@@ -8,18 +8,18 @@ export const Login = () => {
                   <h1>Hritik Social</h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsum dolore molestiae vitae dignissimos fugiat quisquam suscipit nemo vero commodi!
                   </p>
-                  <span>Do you have an account?</span>
+                  <span>Don't have an account?</span>
                   <button>Register</button>
               </div>
               <div className="loginRight">
                   <h1>Login</h1>
                   <form action="">
                       <div className="loginInput">
-                        <input type="text" />
+                        <input type="text" placeholder='Username'/>
                         <label>Username</label>
                       </div>
                       <div className="loginInput">
-                        <input type="password" />
+                        <input type="password" placeholder='password'/>
                         <label>Password</label>
                       </div>
                       <button>Login</button>
